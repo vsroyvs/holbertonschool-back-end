@@ -19,7 +19,6 @@ if __name__ == '__main__':
             "completed": todo["completed"]} for todo in to_do]
         display_todo_all[user_id] = todos_user
 
-    
     filename = f'todo_all_employees.json'
 
     with open(filename, mode='w', newline="") as json_file:
